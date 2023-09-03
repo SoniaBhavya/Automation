@@ -19,7 +19,7 @@ import java.time.Duration;
 
 
 
-public class BaseClass {
+public class  BaseClass {
     public static WebDriver driver;
 
     @BeforeClass
