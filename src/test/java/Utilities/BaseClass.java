@@ -48,8 +48,3 @@ public class  BaseClass {
        System.out.println(MethodName);
     }
 }
-
-
-//Verify git pull and push
-//Check second time
-///from int
