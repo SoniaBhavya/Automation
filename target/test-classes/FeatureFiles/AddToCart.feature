@@ -10,3 +10,5 @@ Feature: Add to cart
     And User navigates to last page and select one product
     And User click on Add to cart
     Then User should be able to add product in cart
+    #Test sonia
+  #r

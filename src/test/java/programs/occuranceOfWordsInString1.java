@@ -1,4 +1,4 @@
-package StepDefinitions;
+package programs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,14 +9,17 @@ public class occuranceOfWordsInString1 {
         String str="Iam Sonia and Iam Sonia";
        String[] word=str.split(" ");
 
-        int count=0;
+       // int count=0;
         Map<String, Integer> hm=new HashMap<>();
         for(int i=0; i<word.length; i++)
         {
-           // count=0;
-            for(int j=i; j<word.length; j++)
+           int count=0;
+            for(int j=0; j<word.length; j++)
             {
-                if(word[i]==word[j])
+//                String w1=word[i];
+//                String w2=word[j];
+               if(word[i].equals(word[j]))
+
                 {
                     count++;
                 }
