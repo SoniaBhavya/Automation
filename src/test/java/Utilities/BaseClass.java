@@ -3,11 +3,16 @@ package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
+
+
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.w3c.dom.DOMConfiguration;
 
 
 import java.io.File;
@@ -19,12 +24,20 @@ import java.time.Duration;
 public class  BaseClass {
     public static WebDriver driver;
 
+
+
+
+
     @BeforeClass
     public void launchingChromeBrowser() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(3000);
+
+
+
+
     }
 
     public void waitForElement(WebDriver driver, WebElement element) {
