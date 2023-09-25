@@ -1,6 +1,7 @@
-package StepDefinitions;
+package programs;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class occuranceOfCharacterInString {

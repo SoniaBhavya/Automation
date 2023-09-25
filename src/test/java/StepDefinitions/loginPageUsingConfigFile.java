@@ -3,27 +3,16 @@ package StepDefinitions;
 
 import Utilities.BaseClass;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 
-import org.testng.annotations.AfterTest;
-
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.w3c.dom.DOMConfiguration;
 import pom.loginPagePF;
 
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
 
 public class loginPageUsingConfigFile extends BaseClass {

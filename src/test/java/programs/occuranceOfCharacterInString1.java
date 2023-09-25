@@ -1,4 +1,4 @@
-package StepDefinitions;
+package programs;
 
 import java.util.HashMap;
 import java.util.Map;
